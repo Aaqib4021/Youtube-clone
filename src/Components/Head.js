@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { toggleMenu } from "../Utils/appSlice";
 import { SEARCH_API } from "../Utils/Constants";
+import { cacheResults } from "../Utils/searchSlice";
 
 const Head = () => {
   const [searhQuery, setSearchQuery] = useState("");
   const [suggestions, setSuggestion] = useState([]);
   //   console.log(searhQuery);
   const dispatch = useDispatch();
+  const searchCache = useSelector((store) => store.search);
+
   const handleSidebarClick = () => {
     dispatch(toggleMenu());
   };
@@ -16,11 +19,20 @@ const Head = () => {
     const search = await fetch(SEARCH_API + searhQuery);
     const data = await search.json();
     setSuggestion(data[1]);
+    dispatch(
+      cacheResults({
+        [searhQuery]: data[1],
+      })
+    );
   };
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      getSearchSuggestions();
+      if (searchCache[searhQuery]) {
+        setSuggestion(searchCache[searhQuery]);
+      } else {
+        getSearchSuggestions();
+      }
     }, 200);
     return () => {
       clearTimeout(timer);
