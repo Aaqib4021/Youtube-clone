@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import "../Components/scrollbar.css";
 
 const textList = [
   "All",
@@ -23,9 +24,9 @@ const textList = [
 ];
 const ButtonList = () => {
   return (
-    <div className="flex overflow-x-scroll">
+    <div className="flex overflow-x-scroll scrollbar-hide">
       {textList.map((button) => (
-        <Button text={button} />
+        <Button text={button} key={button} />
       ))}
     </div>
   );

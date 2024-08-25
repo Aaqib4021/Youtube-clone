@@ -6,7 +6,8 @@ const MainContainer = () => {
   return (
     <div className="overflow-auto scrollbar-hide space-x-4">
       <ButtonList />
-      {/* <VideoContainer /> */}
+      <VideoContainer />
+
     </div>
   );
 };
