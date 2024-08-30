@@ -31,3 +31,14 @@
 - Use the search bar to find specific videos.
 - Click on a video thumbnail to watch it on the watch page.
 - Interact with the sidebar to open or close it for easy access to different sections of the application.
+
+# ScreenShots
+
+![Homepage]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105524.png")
+![Homepage with sidebar]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105558.png")
+![WatchPage]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105636.png")
+![Comments]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105656.png")
+![Watchpage SideBar]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105711.png")
+![Search Recommandations]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105737.png")
+![Search Results]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105831.png")
+![Searched item To watch Page]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105849.png")

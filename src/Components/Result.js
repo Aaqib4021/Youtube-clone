@@ -5,7 +5,7 @@ const Result = ({ data }) => {
   const dataPub = publishedAt.slice(0, 10);
   const { high } = data.snippet.thumbnails;
   return (
-    <div className="m-8 flex ">
+    <div className="m-8 flex mt-20">
       <div>
         <img
           src={high.url}
