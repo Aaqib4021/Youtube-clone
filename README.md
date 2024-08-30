@@ -34,11 +34,11 @@
 
 # ScreenShots
 
-![Homepage](C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105524.png)
-![Homepage with sidebar]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105558.png")
-![WatchPage]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105636.png")
-![Comments]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105656.png")
-![Watchpage SideBar]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105711.png")
-![Search Recommandations]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105737.png")
-![Search Results]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105831.png")
-![Searched item To watch Page]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105849.png")
+![Homepage](../my-youtube/src/images/Screenshot%202024-08-30%20105524.png)
+![Homepage with sidebar](../my-youtube/src/images/Screenshot%202024-08-30%20105558.png)
+![WatchPage](../my-youtube/src/images/Screenshot%202024-08-30%20105636.png)
+![Comments](../my-youtube/src/images/Screenshot%202024-08-30%20105656.png)
+![Watchpage SideBar](../my-youtube/src/images/Screenshot%202024-08-30%20105711.png)
+![Search Recommandations](../my-youtube/src/images/Screenshot%202024-08-30%20105737.png)
+![Search Results](../my-youtube/src/images/Screenshot%202024-08-30%20105831.png)
+![Searched item To watch Page](../my-youtube/src/images/Screenshot%202024-08-30%20105849.png)
