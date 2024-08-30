@@ -35,10 +35,10 @@
 # ScreenShots
 
 ![Homepage](./images/Screenshot%202024-08-30%20105524.png)
-<!-- ![Homepage with sidebar](../my-youtube/src/images/Screenshot%202024-08-30%20105558.png)
-![WatchPage](../my-youtube/src/images/Screenshot%202024-08-30%20105636.png)
-![Comments](../my-youtube/src/images/Screenshot%202024-08-30%20105656.png)
-![Watchpage SideBar](../my-youtube/src/images/Screenshot%202024-08-30%20105711.png)
-![Search Recommandations](../my-youtube/src/images/Screenshot%202024-08-30%20105737.png)
-![Search Results](../my-youtube/src/images/Screenshot%202024-08-30%20105831.png)
-![Searched item To watch Page](../my-youtube/src/images/Screenshot%202024-08-30%20105849.png) -->
+![Homepage with sidebar](./images/Screenshot%202024-08-30%20105558.png)
+![WatchPage](./images/Screenshot%202024-08-30%20105636.png)
+![Comments](./images/Screenshot%202024-08-30%20105656.png)
+![Watchpage SideBar](./images/Screenshot%202024-08-30%20105711.png)
+![Search Recommandations](./images/Screenshot%202024-08-30%20105737.png)
+![Search Results](./images/Screenshot%202024-08-30%20105831.png)
+![Searched item To watch Page](./images/Screenshot%202024-08-30%20105849.png)
