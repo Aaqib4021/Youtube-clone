@@ -34,7 +34,7 @@
 
 # ScreenShots
 
-![Homepage]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105524.png")
+![Homepage](C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105524.png)
 ![Homepage with sidebar]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105558.png")
 ![WatchPage]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105636.png")
 ![Comments]("C:\Users\AAQIB\OneDrive\Pictures\Screenshots\Screenshot 2024-08-30 105656.png")
