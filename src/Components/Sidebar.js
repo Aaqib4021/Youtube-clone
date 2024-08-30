@@ -8,7 +8,7 @@ const Sidebar = () => {
   if (!isMenuOpen) return;
 
   return (
-    <div className="shadow-xl p-5 w-72 ">
+    <div className="px-12 w-[200px] h-screen fixed mt-24 ">
       <div>
         <ul>
           <Link to="/">
@@ -31,6 +31,13 @@ const Sidebar = () => {
           <li>Shoping</li>
           <li>Courses</li>
           <li>News</li>
+        </ul>
+        <hr></hr>
+        <ul>
+          <li>Setting</li>
+          <li>Report History</li>
+          <li>Help</li>
+          <li>Send Feedback</li>
         </ul>
       </div>
     </div>

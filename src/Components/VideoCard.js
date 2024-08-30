@@ -1,12 +1,18 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 const VideoCard = ({ info }) => {
+  const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
   const { snippet, statistics } = info;
   const { title, channelTitle, thumbnails } = snippet;
 
   return (
     <div>
-      <div className="max-w-80  my-5 rounded-xl p-2 cursor-pointer">
+      <div
+        className={`  my-5 rounded-xl p-2 cursor-pointer ${
+          isMenuOpen ? "max-w-[22rem]" : "max-w-80"
+        }`}
+      >
         <img
           src={thumbnails.medium.url}
           alt="Thumbnail"

@@ -4,10 +4,12 @@ import Comment from "./Comment";
 const CommentList = ({ comments }) => {
   return comments.map((comment, index) => (
     <div key={index}>
-      <Comment key={index} data={comment} />
-      <div className="ml-5 pl-5">
-        <CommentList comments={comment.replies} />
-      </div>
+      <Comment data={comment} />
+      {comment.replies && (
+        <div className="ml-5 pl-5 ">
+          <CommentList comments={comment?.replies?.comments} />
+        </div>
+      )}
     </div>
   ));
 };

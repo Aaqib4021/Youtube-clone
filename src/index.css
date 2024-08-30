@@ -4,3 +4,8 @@
 body{
     overflow-x: hidden;
 }
+li{
+    font-weight: 400;
+    margin: 10px;
+    margin-block: 20px;
+}
